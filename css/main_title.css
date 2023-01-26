@@ -1,0 +1,59 @@
+.main__title {
+    font: 44px/1.2 'Raleway', sans-serif;
+    font-weight: 200;
+    color: #443836;
+}
+
+@media screen and (max-width: 460px) {
+    .main__title {
+        font-size: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: -478px;
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main__title {
+        font-size: 26px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: -445px;
+        max-width: 680px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main__title {
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 30px;
+        max-width: 720px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .main__title {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: -420px;
+        font-size: 36px;
+        max-width: 1080px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .main__title {
+        font-size: 39px;
+        margin-top: -393px;
+        max-width: 1380px;
+    }
+}
+
+@media screen and (min-width: 1620px) {
+    .main__title {
+        font-size: 44px;
+        max-width: 1557px;
+    }
+}

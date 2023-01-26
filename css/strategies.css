@@ -1,0 +1,76 @@
+.strategies {
+    overflow: hidden;
+    margin-top: 64px;
+}
+
+.strategies__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 125.69%;
+    letter-spacing: -0.09em;
+    color: #443836;
+    width: 95%;
+    margin-top: 190px;
+    max-width: 1040px;
+}
+
+.strategies__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+
+.strategies__picture {
+    max-width: 466px;
+}
+
+.strategies__name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 104.69%;
+    color: #000000;
+    max-width: 399px;
+    margin-top: 45px;
+}
+
+.strategies__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135.19%;
+    color: #000000;
+    max-width: 466px;
+    margin-top: 12px;
+}
+
+@media screen and (max-width: 600px) {
+    .strategies {
+        margin-top: 50px;
+    }
+
+    .strategies__title {
+        margin-top: 20px;
+        max-width: 350px;
+    }
+
+    .map__strategies {
+        max-width: 330px;
+        margin-top: 20px;
+    }
+
+    .strategies__picture {
+        max-width: 260px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .strategies {
+        margin-bottom: 171px;
+    }
+}

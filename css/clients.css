@@ -1,0 +1,46 @@
+.clients {
+    margin-top: 213px;
+}
+
+.clients_text {
+    padding: 168px 0px 27px 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 132.69%;
+    letter-spacing: -0.01em;
+    color: #443836;
+    width: 1040px;
+}
+
+.clients_logo {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 299px;
+}
+
+.clients_logo-img {
+    margin: 10px 5px;
+    display: block;
+    width: 346px;
+}
+
+@media screen and (max-width: 600px) {
+    .clients_logo {
+        max-width: 343px;
+    }
+
+    .clients {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .clients {
+        margin-top: 273px;
+        margin-left: 172px;
+    }
+}

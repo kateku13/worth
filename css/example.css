@@ -1,0 +1,121 @@
+.examples {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+.example_map {
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 44px 34px 40px 37px;
+}
+
+.examples__text {
+    font: 18px/22.62px Montserrat, sans-serif;
+    margin-top: 17px;
+}
+
+@media screen and (max-width: 600px) {
+    .examples__image {
+        max-width: 260px;
+    }
+
+    .examples {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .examples {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 750px;
+    }
+
+    .example_map {
+        max-width: 380px;
+        width: 48.5%;
+    }
+}
+
+
+@media screen and (min-width: 1100px) {
+    .examples {
+        max-width: 1122px;
+    }
+}
+
+@media screen and (min-width: 1607px) {
+    .examples {
+        max-width: 1750px;
+        margin-top: 120px;
+    }
+
+    .example_map {
+        width: 17%;
+    }
+
+    .example_map-second {
+        margin-top: 4px;
+        position: relative;
+        right: 165px;
+    }
+
+    .example__text-third {
+        width: 112%;
+    }
+
+    .example_map-third {
+        margin-top: 6px;
+        right: 219px;
+        position: relative;
+    }
+
+    .example_map-fourth {
+        position: relative;
+        right: 16px;
+    }
+
+    .example_map-fifth {
+        position: relative;
+        top: -19px;
+    }
+
+    .example_map-sixth {
+        top: -21px;
+        right: 14px;
+        position: relative;
+    }
+
+    .example__text-sixth {
+        width: 80%;
+        left: 62px;
+        position: relative;
+    }
+
+    .example_map-seventh {
+        position: relative;
+        left: -4px;
+        top: 28px;
+    }
+
+    .example__text-seventh {
+        position: relative;
+        left: -84px;
+        top: 40px;
+    }
+
+    .example_map-eighth {
+        position: relative;
+        right: 233px;
+        top: -19px;
+    }
+
+    .example__text-eighth {
+        width: 133%;
+    }
+}
